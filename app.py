@@ -5,7 +5,7 @@ app.config["DEBUG"] = True
 
 @app.route('/', methods=['GET'])
 def home():
-    return "HEllo"
+    return "..hello Nguyen Thanh Nguyen"
 
 @app.route('/user', methods=['GET'])
 def getNextFromCurrent():
